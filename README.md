@@ -1,6 +1,7 @@
-HW10
+# HW10
 
-task1
+# task1
+## create schema
 RAW JSON:
  {"currency":"USD","customer":{"email":"sarah.johnson@example.com","name":"Sarah Johnson"},"items":[{"name":"Water Bottle","price":12.5,"qty":2,"sku":"WB001"},{"name":"Carrying Pouch","price":5,"qty":1,"sku":"CP001"}],"order_id":"A-1029","total":30}
 
@@ -29,7 +30,8 @@ Parsed:
   "total": 30
 }
 
-task3
+# task3
+## create converter & print RESULT JSON
 === INTERMEDIATE (turn 1) ===
 name: convert
 arguments: {"amount":100,"base":"USD","quote":"THB"}
